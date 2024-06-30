@@ -1,0 +1,17 @@
+print("Equation:ax^2+bx+c")
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+c=int(input("Enter c value:"))
+d=b**2-4*a*c
+d1=d**0.5
+if d<0:
+ print("Complex roots")
+elif d==0:
+ r=-b/(2*a)
+ print("Real and same roots",r)
+else:
+ print("Real and different roots")
+ r1=(-b+d1)/2*a
+ r2=(-b+d1)/2*a
+ print("First root",r1)
+ print("Second root",r2
